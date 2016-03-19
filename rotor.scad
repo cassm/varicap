@@ -5,7 +5,7 @@ is_end = 0;
 module rotor (end) {
     rotate ([0,0,180]) {
         union() {  
-            linear_extrude (thickness) {
+            linear_extrude (plate_thickness) {
                 semicircle ();
             }
             

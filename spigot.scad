@@ -1,8 +1,8 @@
 include <varicap.scad>;
 
 module spigot () {
-    linear_extrude (washer_r) {
-        square ([washer_r, thickness*3 + gap + slip_gap], true);
+    linear_extrude (strut_r) {
+        square ([strut_r, plate_thickness*3 + plate_gap + slip_gap], true);
     }
 }
 
